@@ -4,5 +4,7 @@ require File.join( File.dirname( __FILE__ ), "common" )
 require 'hello'
 
 app = Hello.new
-app.prompt_full
+
+app.prompt
+app.prompt_read
 app.hello
